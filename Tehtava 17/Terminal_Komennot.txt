@@ -1,0 +1,5 @@
+npx express-generator --no-view
+npm install
+npm install cors
+npm install helmet
+npm install mysql
