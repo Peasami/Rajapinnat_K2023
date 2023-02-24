@@ -1,0 +1,37 @@
+// BOOK TABLE
+
+CREATE TABLE book(
+id_book INT primary key auto_increment,
+name VARCHAR(255),
+author VARCHAR(255),
+isbn VARCHAR(20)
+);
+
+describe book;
++---------+--------------+------+-----+---------+----------------+
+| Field   | Type         | Null | Key | Default | Extra          |
++---------+--------------+------+-----+---------+----------------+
+| id_book | int          | NO   | PRI | NULL    | auto_increment |
+| name    | varchar(255) | YES  |     | NULL    |                |
+| author  | varchar(255) | YES  |     | NULL    |                |
+| isbn    | varchar(20)  | YES  |     | NULL    |                |
++---------+--------------+------+-----+---------+----------------+
+
+
+
+// BORROWER TABLE
+
+create table borrower (id_borrower INT PRIMARY KEY AUTO_INCREMENT,
+fname varchar(50),
+lname varchar(50),
+streetaddress varchar(50));
+
+describe borrower;
++---------------+-------------+------+-----+---------+----------------+
+| Field         | Type        | Null | Key | Default | Extra          |
++---------------+-------------+------+-----+---------+----------------+
+| id_borrower   | int         | NO   | PRI | NULL    | auto_increment |
+| fname         | varchar(50) | YES  |     | NULL    |                |
+| lname         | varchar(50) | YES  |     | NULL    |                |
+| streetaddress | varchar(50) | YES  |     | NULL    |                |
++---------------+-------------+------+-----+---------+----------------+
